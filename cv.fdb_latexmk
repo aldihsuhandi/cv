@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1691797427 "/media/home/Documents/github/cv/cv.tex" "cv.pdf" "cv" 1691797428 0
-  "/media/home/Documents/github/cv/cv.tex" 1691797427 5976 f1e89bdc1de927cf9dc2ae5ef2fc6127 ""
+["pdflatex"] 1691797501 "/media/home/Documents/github/cv/cv.tex" "cv.pdf" "cv" 1691797502 0
+  "/media/home/Documents/github/cv/cv.tex" 1691797501 5976 f73d9c817de643500c1666c1d2ec3afa ""
   "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1689853683 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc" 1689853683 1687 f004baecce60175c6453d0e3f808cf20 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc" 1689853683 2679 32dd8ae231bf4a0752b98f62dc097183 ""
@@ -219,9 +219,9 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1689955598 4623317 a14e403ea671a9bc12f23e543c6a500e ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1689955591 8204233 1c03426ef061080d6bc4a21f87368d35 ""
   "binus.png" 1691795746 206800 9befa47161458a8d8e613024c51bba4e ""
-  "cv.aux" 1691797428 597 cccaed17489acf461ddd6b416401ae2b "pdflatex"
-  "cv.out" 1691797427 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "cv.tex" 1691797427 5976 f1e89bdc1de927cf9dc2ae5ef2fc6127 ""
+  "cv.aux" 1691797502 597 cccaed17489acf461ddd6b416401ae2b "pdflatex"
+  "cv.out" 1691797502 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "cv.tex" 1691797501 5976 f73d9c817de643500c1666c1d2ec3afa ""
   "dana.png" 1691796061 7377 3d7a9f070bbad82face9da33f34a7f62 ""
   "graduation photo.jpg" 1691795454 54301 b861d4d3c082b3268f4ed09803bbd027 ""
   "simplehipstercv.cls" 1691795167 10756 aa1f331cf5ed1296b9a018485b5c221b ""

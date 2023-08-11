@@ -1,0 +1,197 @@
+\documentclass[lighthipster]{simplehipstercv}
+\usepackage[utf8]{inputenc}
+\usepackage[default]{raleway}
+\usepackage[margin=1cm, a4paper]{geometry}
+
+
+%------------------------------------------------------------------ Variablen
+
+\newlength{\rightcolwidth}
+\newlength{\leftcolwidth}
+\setlength{\leftcolwidth}{0.23\textwidth}
+\setlength{\rightcolwidth}{0.75\textwidth}
+
+%------------------------------------------------------------------
+\title{New Simple CV}
+\author{\LaTeX{} Ninja}
+\date{June 2019}
+
+\pagestyle{empty}
+\begin{document}
+
+
+\thispagestyle{empty}
+%-------------------------------------------------------------
+
+\section*{Start}
+
+\simpleheader{headercolour}{Aldih}{Suhandi}{Backend Engineer}{white}
+
+
+
+%------------------------------------------------
+
+% this has to be here so the paracols starts..
+\subsection*{}
+\vspace{4em}
+
+\setlength{\columnsep}{1.5cm}
+\columnratio{0.23}[0.75]
+\begin{paracol}{2}
+\hbadness5000
+%\backgroundcolor{c[1]}[rgb]{1,1,0.8} % cream yellow for column-1 %\backgroundcolor{g}[rgb]{0.8,1,1} % \backgroundcolor{l}[rgb]{0,0,0.7} % dark blue for left margin
+
+\paracolbackgroundoptions
+
+% 0.9,0.9,0.9 -- 0.8,0.8,0.8
+
+
+\footnotesize
+{\setasidefontcolour
+\flushright
+\begin{center}
+    \roundpic{graduation photo.jpg}
+\end{center}
+
+\bg{cvgreen}{white}{About me}\\[0.5em]
+
+{\footnotesize
+My name is Aldih suhandi, you can call me "aldih". I am a format DANAM8s and a Computer Science Graduate from Bina Nusatara University. My journey with programming start with when I want to create a mod for a game called MINECRAFT and here I am today, learning programming because I love it and with it I can make something and can say "I made this". }
+\bigskip
+
+\bg{cvgreen}{white}{personal} \\[0.5em]
+Aldih Suhandi
+
+nationality: Indonesia
+
+\bigskip
+
+\bg{cvgreen}{white}{Areas of specialization} \\[0.5em]
+
+Backend Engineer ~•~ Database Designer ~•~ Linux Enthusiast
+
+\bigskip
+
+
+
+\bigskip
+
+\bg{cvgreen}{white}{Interests}\\[0.5em]
+Reading a novel\\
+Listening to music
+
+\bigskip
+
+\bg{cvgreen}{white}{Skills}\\[0.5em]
+
+\texttt{Springboot} ~/~ \texttt{Java}
+
+\texttt{C} ~/~ \texttt{C++}
+
+\texttt{Database} ~/~ \texttt{Mysql}
+
+\texttt{Database} ~/~ \texttt{Postgresql}
+
+
+
+\vspace{4em}
+
+\infobubble{\faGithub}{cvgreen}{white}{aldihsuhandi}
+\infobubble{\faWhatsapp}{cvgreen}{white}{082122704561}
+
+\phantom{turn the page}
+
+\phantom{turn the page}
+}
+%-----------------------------------------------------------
+\switchcolumn
+
+\small
+\section*{Short Resumé}
+
+\begin{tabular}{r| p{0.5\textwidth} c}
+    \cvevent{Sep 2021--Feb 2022}{Lab Assistant}{Part time}{Bina Nusantara University \color{cvred}}{Teaching assistant at Bina Nusantara University, teach three subjects for five classes}{binus.png} \\
+    \cvevent{Feb 2022--Sep 2023}{Backend Engineer}{Intern}{DANA Indonesia \color{cvred}}{%
+        \begin{itemize}
+            \item Developed and maintained core product services.
+            \item Worked in Agile Scrum team environment.
+            \item Wrote unit test to evaluate high code coverage.
+            \item Built flexible, reusable, and readable code for future use.
+        \end{itemize}
+    }{dana.png}
+\end{tabular}
+\vspace{3em}
+
+\begin{minipage}[t]{0.35\textwidth}
+\section*{Degrees}
+\begin{tabular}{r p{0.6\textwidth} c}
+    \cvdegree{2023}{Computer Science}{Undergraduate}{Bina Nusantara Indonesia \color{headerblue}}{}{binus.png} \\
+\end{tabular}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.3\textwidth}
+\section*{Programming}
+\begin{tabular}{r @{\hspace{0.5em}}l}
+     \bg{skilllabelcolour}{iconcolour}{problem solving} &  \barrule{0.35}{0.5em}{cvpurple}\\
+     \bg{skilllabelcolour}{iconcolour}{Springboot} & \barrule{0.4}{0.5em}{cvgreen} \\
+     \bg{skilllabelcolour}{iconcolour}{Linux} & \barrule{0.3}{0.5em}{cvpurple} \\
+     \bg{skilllabelcolour}{iconcolour}{reactJS} & \barrule{0.25}{0.5em}{cvpurple} \\
+     \bg{skilllabelcolour}{iconcolour}{database} & \barrule{0.35}{0.5em}{cvpurple} \\
+\end{tabular}
+\end{minipage}
+
+\section*{Achievements}
+\begin{tabular}{r| p{0.5\textwidth} c}
+    \cvevent{2020}{Asia Jakarta - Indonesia National Contest}{31st Place}{Bina Nusantara University \color{cvred}}{}{binus.png} \\
+    \cvevent{2020}{The 2020 ICPC Asia Jakarta Regional Contest}{14th Joint rank}{Bina Nusantara University \color{cvred}}{}{binus.png} \\
+    \cvevent{2021}{Hology 3.0 Competitive Programming contest}{Finalist}{Bina Nusantara University \color{cvred}}{}{binus.png} \\
+\end{tabular}
+\vspace{3em}
+
+\begin{minipage}[t]{0.3\textwidth}
+\section*{Certificates \& Grants}
+\begin{tabular}{>{\footnotesize\bfseries}r >{\footnotesize}p{0.55\textwidth}}
+    2022 & Moscow Training - Competitive Programing \\
+    2021 & Hackerrank - Problem Solving \\
+    2021 & Oracle - Database Design \\
+    2021 & Oracle - Database Programming with SQL \\
+\end{tabular}
+\bigskip
+\bigskip
+
+\end{minipage}\hfill
+\begin{minipage}[t]{0.3\textwidth}
+
+\section*{Languages}
+\begin{tabular}{l | ll}
+\textbf{Indonesia}  & {\phantom{x}\footnotesize mother tongue} \\
+\textbf{English} & \pictofraction{\faCircle}{cvgreen}{3}{black!30}{1}{\tiny} \\
+\end{tabular}
+\bigskip
+
+% \section*{Talks}
+% \begin{tabular}{>{\footnotesize\bfseries}r >{\footnotesize}p{0.6\textwidth}}
+%     Nov. 1726 & ``How I lost my ship (\& and how to get it back)'', at: \emph{Annual Pirate's Conference} in Tortuga, Nov. 1726.
+% \end{tabular}
+\end{minipage}
+
+
+
+
+
+
+\vfill{} % Whitespace before final footer
+
+%----------------------------------------------------------------------------------------
+%	FINAL FOOTER
+%----------------------------------------------------------------------------------------
+\setlength{\parindent}{0pt}
+\begin{minipage}[t]{\rightcolwidth}
+\begin{center}\fontfamily{\sfdefault}\selectfont \color{black!70}
+{\small Aldih Suhandi \icon{\faMapMarker}{cvgreen}{} Tangerang, Indonesia \icon{\faPhone}{cvgreen}{} 082122704561 \newline\icon{\faAt}{cvgreen}{} \protect\url{aldihsuhandi697@gmail.com}
+}
+\end{center}
+\end{minipage}
+
+\end{paracol}
+
+\end{document}

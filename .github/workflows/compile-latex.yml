@@ -4,6 +4,10 @@ on:
   push:
     branches:
       - main
+    paths:
+      - '**/*.tex'
+      - '**/*.sty'
+      - '**/*.cls'
   pull_request:
     branches:
       - main
@@ -17,13 +21,19 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Compile LaTeX document
-        uses: xu-cheng/latex-action@v3
-        with:
-          root_file: cv.tex
-          latexmk_use_xelatex: false
-          latexmk_shell_escape: false
-          args: -pdf -file-line-error -halt-on-error -interaction=nonstopmode
+      - name: Install TeX Live (comprehensive)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends \
+            texlive-full \
+            latexmk \
+            imagemagick \
+            ghostscript \
+            poppler-utils
+
+      - name: Compile CV to PDF
+        run: |
+          latexmk -pdf -interaction=nonstopmode -file-line-error -halt-on-error cv.tex
 
       - name: Upload PDF artifact
         uses: actions/upload-artifact@v4
